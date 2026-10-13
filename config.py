@@ -9,7 +9,7 @@ SPREADSHEET_NAME_FMT = "Food Tracker — {month} {year}"
 SHEETS_REGISTRY = Path(__file__).parent / "sheets.json"
 
 GEMINI_API_KEY_FILE = Path.home() / ".config" / "gemini" / "api_key.txt"
-GEMINI_MODEL = "gemini-3.5-flash"
+GEMINI_MODEL = "gemini-3.5-flash-lite"
 
 FOOD_LOG_SHEET = "Food Log"
 FOOD_LOG_HEADER_ROW = 7
