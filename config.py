@@ -1,6 +1,6 @@
 from pathlib import Path
 
-SERVICE_ACCOUNT_JSON = Path.home() / "adishan" / "Documents" / "projects" / "spend_tracker" / "credentials" / "sheets_sa.json"
+SERVICE_ACCOUNT_JSON = Path.home() / "Documents" / "projects" / "spend_tracker" / "credentials" / "sheets_sa.json"
 
 DRIVE_FOLDER_ID = "1ONnXkUYAFS7EeB6VNf2eiP099uDwBgaj"
 
