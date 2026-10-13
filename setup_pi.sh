@@ -32,7 +32,7 @@ fi
 
 # 3. Credentials check
 echo "[3/4] Checking Google credentials..."
-CREDS="$HOME/.config/gcloud/food-tracker-sa.json"
+CREDS="$HOME/adishan/Documents/projects/spend_tracker/credentials/sheets_sa.json"
 if [ -f "$CREDS" ]; then
     echo "  Found: $CREDS"
 else
